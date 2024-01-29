@@ -1,3 +1,3 @@
 ```
--nojoy +console +exec autoexec
+-novid -nojoy +console +exec autoexec
 ```
