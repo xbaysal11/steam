@@ -27,11 +27,11 @@ alias "-walk" "checkwalk"
 //Бинды (Мышка)
 bind "MOUSE1" "+attack"
 bind "MOUSE2" "+attack2"
-bind "MOUSE3" "player_ping"
-bind "MOUSE4" "+spray_menu"
+bind "MOUSE4" "player_ping"
 bind "MWHEELDOWN" "+jump"
 bind "MOUSE5" "+dropbomb;"
 unbind "mwheelup"
+unbind "MOUSE3"
 
 //Бинды (Клавиатура)
 bind "w" "+w"
@@ -61,7 +61,7 @@ bind "f" "+lookatweapon"
 bind "g" "drop"
 bind "q" "lastinv"
 bind "r" "+reload"
-
+bind "p" "+spray_menu"
 bind "u" "messagemode2"
 bind "y" "messagemode"
 bind "t" "voice_modenable_toggle"
@@ -157,7 +157,7 @@ viewmodel_presetpos "0"
 voice_always_sample_mic "1"
 zoom_sensitivity_ratio "1.0"
 
-sensitivity "0.625"
+sensitivity "1.25"
 
 echo "/game/csgo/cfg/autoexec.cfg has been loaded!"
 ```
