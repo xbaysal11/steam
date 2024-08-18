@@ -1,3 +1,3 @@
 ```
--high -nojoy +console +exec autoexec
+-high -nojoy +console +exec config
 ```
